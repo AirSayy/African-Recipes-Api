@@ -1,0 +1,25 @@
+{
+  "name": "food-recipe-api",
+  "version": "1.0.0",
+  "description": "An Api for African Recipes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AirSayy/African-Recipes-Api.git"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "Eseoghene Eguakhide",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AirSayy/African-Recipes-Api/issues"
+  },
+  "homepage": "https://github.com/AirSayy/African-Recipes-Api#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
