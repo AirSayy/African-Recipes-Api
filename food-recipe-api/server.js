@@ -78,7 +78,7 @@ const meals = {
             ],
             ['instructions']:
             [
-
+                'lorem'
             ]
         }
         },
@@ -86,7 +86,19 @@ const meals = {
             ['yam peppersoup'] :{
                 ['ingredients']:
                 [
-                    
+                    'lorem'
+                ]
+            }
+        },
+        'pasta' :{
+            ['jollof spagetti'] : {
+                ['ingredients'] : 
+                [
+                    'lorem'
+                ],
+                'instructions' :
+                [
+                    'lorem ispum'
                 ]
             }
         }
@@ -105,7 +117,7 @@ app.get('/api/:mealName' , (req , res) => {
     res.json(meals[mealName])
    }
    else{
-    res.json(meals['Pap'])
+    res.json('unknown')
    }
 
 
