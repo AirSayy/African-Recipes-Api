@@ -112,18 +112,26 @@ app.get('/' , (request , response) => {
 })
 
 app.get('/api/:mealName' , (req , res) => {
-   const mealName =  req.params.mealName.toLowerCase()
+    try {
+    const mealName =  req.params.mealName.toLowerCase()
    if(meals[mealName]){
     res.json(meals[mealName])
    }
    else{
     res.json('unknown')
-   }
+   }}
+     catch (error) {
+        console.log(error)
+    }})
 
+   
 
-
-    //  res.json(meals)
-})
+// try {
+//     res.json(meals)
+// } catch (error) {
+//    console.log(error) 
+// }
+// })
 
 app.listen(PORT , () => {
     console.log(`The server is running on port ${PORT}!`)
