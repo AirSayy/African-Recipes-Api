@@ -64,7 +64,13 @@ const meals = {
         ['coconut rice']:{
             ['ingredients'] :
             [
-
+                '8 cups of rice',
+                '3 medium bell pepper',
+                '5 pieces of tomato',
+                '2 scotch bonnet pepper',
+                'half onion',
+                '3 cloves of galic',
+                '2 ginger'
             ],
             ['instructions']:
             [
